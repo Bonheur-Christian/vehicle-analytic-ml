@@ -42,7 +42,7 @@ def data_exploration_view(request):
         "data_exploration": data_exploration(df)
     }
     
-    return render(request, "predictor/index.html", context)
+    return render(request, "predictor/exploratory_data_analysis.html", context)
 
 def regression_analysis(request):
     context = {
