@@ -1,0 +1,995 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "shapeName": "Bugesera"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            30.27,
+                            -2.13
+                        ],
+                        [
+                            30.40,
+                            -2.13
+                        ],
+                        [
+                            30.40,
+                            -2.35
+                        ],
+                        [
+                            30.27,
+                            -2.35
+                        ],
+                        [
+                            30.27,
+                            -2.13
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "shapeName": "Burera"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            29.45,
+                            -1.35
+                        ],
+                        [
+                            29.75,
+                            -1.35
+                        ],
+                        [
+                            29.75,
+                            -1.65
+                        ],
+                        [
+                            29.45,
+                            -1.65
+                        ],
+                        [
+                            29.45,
+                            -1.35
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "shapeName": "Gakenke"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            29.60,
+                            -1.55
+                        ],
+                        [
+                            29.95,
+                            -1.55
+                        ],
+                        [
+                            29.95,
+                            -1.85
+                        ],
+                        [
+                            29.60,
+                            -1.85
+                        ],
+                        [
+                            29.60,
+                            -1.55
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "shapeName": "Gasabo"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            29.95,
+                            -1.80
+                        ],
+                        [
+                            30.20,
+                            -1.80
+                        ],
+                        [
+                            30.20,
+                            -2.10
+                        ],
+                        [
+                            29.95,
+                            -2.10
+                        ],
+                        [
+                            29.95,
+                            -1.80
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "shapeName": "Gatsibo"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            30.10,
+                            -1.40
+                        ],
+                        [
+                            30.60,
+                            -1.40
+                        ],
+                        [
+                            30.60,
+                            -1.85
+                        ],
+                        [
+                            30.10,
+                            -1.85
+                        ],
+                        [
+                            30.10,
+                            -1.40
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "shapeName": "Gicumbi"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            29.65,
+                            -1.50
+                        ],
+                        [
+                            29.95,
+                            -1.50
+                        ],
+                        [
+                            29.95,
+                            -1.80
+                        ],
+                        [
+                            29.65,
+                            -1.80
+                        ],
+                        [
+                            29.65,
+                            -1.50
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "shapeName": "Gisagara"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            29.60,
+                            -2.45
+                        ],
+                        [
+                            30.05,
+                            -2.45
+                        ],
+                        [
+                            30.05,
+                            -2.75
+                        ],
+                        [
+                            29.60,
+                            -2.75
+                        ],
+                        [
+                            29.60,
+                            -2.45
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "shapeName": "Huye"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            29.50,
+                            -2.50
+                        ],
+                        [
+                            29.95,
+                            -2.50
+                        ],
+                        [
+                            29.95,
+                            -2.75
+                        ],
+                        [
+                            29.50,
+                            -2.75
+                        ],
+                        [
+                            29.50,
+                            -2.50
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "shapeName": "Kamonyi"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            29.65,
+                            -2.20
+                        ],
+                        [
+                            30.05,
+                            -2.20
+                        ],
+                        [
+                            30.05,
+                            -2.50
+                        ],
+                        [
+                            29.65,
+                            -2.50
+                        ],
+                        [
+                            29.65,
+                            -2.20
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "shapeName": "Kayonza"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            30.30,
+                            -1.60
+                        ],
+                        [
+                            30.70,
+                            -1.60
+                        ],
+                        [
+                            30.70,
+                            -2.00
+                        ],
+                        [
+                            30.30,
+                            -2.00
+                        ],
+                        [
+                            30.30,
+                            -1.60
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "shapeName": "Kicukiro"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            30.05,
+                            -2.00
+                        ],
+                        [
+                            30.35,
+                            -2.00
+                        ],
+                        [
+                            30.35,
+                            -2.30
+                        ],
+                        [
+                            30.05,
+                            -2.30
+                        ],
+                        [
+                            30.05,
+                            -2.00
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "shapeName": "Kirehe"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            30.60,
+                            -1.20
+                        ],
+                        [
+                            31.10,
+                            -1.20
+                        ],
+                        [
+                            31.10,
+                            -1.65
+                        ],
+                        [
+                            30.60,
+                            -1.65
+                        ],
+                        [
+                            30.60,
+                            -1.20
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "shapeName": "Kisoro"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            29.15,
+                            -1.25
+                        ],
+                        [
+                            29.50,
+                            -1.25
+                        ],
+                        [
+                            29.50,
+                            -1.55
+                        ],
+                        [
+                            29.15,
+                            -1.55
+                        ],
+                        [
+                            29.15,
+                            -1.25
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "shapeName": "Muhanga"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            30.05,
+                            -2.05
+                        ],
+                        [
+                            30.40,
+                            -2.05
+                        ],
+                        [
+                            30.40,
+                            -2.35
+                        ],
+                        [
+                            30.05,
+                            -2.35
+                        ],
+                        [
+                            30.05,
+                            -2.05
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "shapeName": "Musanze"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            29.40,
+                            -1.50
+                        ],
+                        [
+                            29.75,
+                            -1.50
+                        ],
+                        [
+                            29.75,
+                            -1.85
+                        ],
+                        [
+                            29.40,
+                            -1.85
+                        ],
+                        [
+                            29.40,
+                            -1.50
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "shapeName": "Mwanza"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            29.30,
+                            -2.60
+                        ],
+                        [
+                            29.75,
+                            -2.60
+                        ],
+                        [
+                            29.75,
+                            -2.90
+                        ],
+                        [
+                            29.30,
+                            -2.90
+                        ],
+                        [
+                            29.30,
+                            -2.60
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "shapeName": "Ngoma"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            30.35,
+                            -2.15
+                        ],
+                        [
+                            30.85,
+                            -2.15
+                        ],
+                        [
+                            30.85,
+                            -2.55
+                        ],
+                        [
+                            30.35,
+                            -2.55
+                        ],
+                        [
+                            30.35,
+                            -2.15
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "shapeName": "Ngororero"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            29.15,
+                            -2.20
+                        ],
+                        [
+                            29.50,
+                            -2.20
+                        ],
+                        [
+                            29.50,
+                            -2.50
+                        ],
+                        [
+                            29.15,
+                            -2.50
+                        ],
+                        [
+                            29.15,
+                            -2.20
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "shapeName": "Nyabihu"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            29.40,
+                            -2.10
+                        ],
+                        [
+                            29.80,
+                            -2.10
+                        ],
+                        [
+                            29.80,
+                            -2.40
+                        ],
+                        [
+                            29.40,
+                            -2.40
+                        ],
+                        [
+                            29.40,
+                            -2.10
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "shapeName": "Nyagatare"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            30.45,
+                            -1.05
+                        ],
+                        [
+                            30.95,
+                            -1.05
+                        ],
+                        [
+                            30.95,
+                            -1.50
+                        ],
+                        [
+                            30.45,
+                            -1.50
+                        ],
+                        [
+                            30.45,
+                            -1.05
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "shapeName": "Nyando"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            29.15,
+                            -1.80
+                        ],
+                        [
+                            29.60,
+                            -1.80
+                        ],
+                        [
+                            29.60,
+                            -2.10
+                        ],
+                        [
+                            29.15,
+                            -2.10
+                        ],
+                        [
+                            29.15,
+                            -1.80
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "shapeName": "Nyanza"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            29.60,
+                            -2.60
+                        ],
+                        [
+                            30.05,
+                            -2.60
+                        ],
+                        [
+                            30.05,
+                            -2.90
+                        ],
+                        [
+                            29.60,
+                            -2.90
+                        ],
+                        [
+                            29.60,
+                            -2.60
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "shapeName": "Nyaruguru"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            29.10,
+                            -2.70
+                        ],
+                        [
+                            29.55,
+                            -2.70
+                        ],
+                        [
+                            29.55,
+                            -3.00
+                        ],
+                        [
+                            29.10,
+                            -3.00
+                        ],
+                        [
+                            29.10,
+                            -2.70
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "shapeName": "Nyeri"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            29.70,
+                            -1.90
+                        ],
+                        [
+                            30.10,
+                            -1.90
+                        ],
+                        [
+                            30.10,
+                            -2.20
+                        ],
+                        [
+                            29.70,
+                            -2.20
+                        ],
+                        [
+                            29.70,
+                            -1.90
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "shapeName": "Ruhango"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            29.85,
+                            -2.35
+                        ],
+                        [
+                            30.30,
+                            -2.35
+                        ],
+                        [
+                            30.30,
+                            -2.65
+                        ],
+                        [
+                            29.85,
+                            -2.65
+                        ],
+                        [
+                            29.85,
+                            -2.35
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "shapeName": "Rulindo"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            29.35,
+                            -1.50
+                        ],
+                        [
+                            29.65,
+                            -1.50
+                        ],
+                        [
+                            29.65,
+                            -1.80
+                        ],
+                        [
+                            29.35,
+                            -1.80
+                        ],
+                        [
+                            29.35,
+                            -1.50
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "shapeName": "Rusizi"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            28.80,
+                            -2.35
+                        ],
+                        [
+                            29.35,
+                            -2.35
+                        ],
+                        [
+                            29.35,
+                            -2.65
+                        ],
+                        [
+                            28.80,
+                            -2.65
+                        ],
+                        [
+                            28.80,
+                            -2.35
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "shapeName": "Rustenburgo"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            30.00,
+                            -1.50
+                        ],
+                        [
+                            30.35,
+                            -1.50
+                        ],
+                        [
+                            30.35,
+                            -1.85
+                        ],
+                        [
+                            30.00,
+                            -1.85
+                        ],
+                        [
+                            30.00,
+                            -1.50
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "shapeName": "Rubavu"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            29.20,
+                            -1.25
+                        ],
+                        [
+                            29.50,
+                            -1.25
+                        ],
+                        [
+                            29.50,
+                            -1.60
+                        ],
+                        [
+                            29.20,
+                            -1.60
+                        ],
+                        [
+                            29.20,
+                            -1.25
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "shapeName": "Kigali"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            30.00,
+                            -1.95
+                        ],
+                        [
+                            30.15,
+                            -1.95
+                        ],
+                        [
+                            30.15,
+                            -2.10
+                        ],
+                        [
+                            30.00,
+                            -2.10
+                        ],
+                        [
+                            30.00,
+                            -1.95
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

@@ -109,18 +109,86 @@
                     </div>
                 </section>
                 <section id="evaluation-metrics" class="mb-5 pt-3">
+                    <div class="row g-4">
+                        <div class="col-lg-6">
+                            <div class="card shadow-sm border-0">
+                                <div class="card-header bg-success text-white py-3">
+                                    <h6 class="mb-0 fw-bold">Model Performance Metrics</h6>
+                                </div>
+                                <div class="card-body">
+                                    <div class="mb-4">
+                                        <label class="fw-semibold text-muted small text-uppercase">Silhouette
+                                            Score</label>
+                                        <div class="display-5 fw-bold text-success">{{evaluations.silhouette|safe }}
+                                        </div>
+                                        <small class="text-muted">Range: -1 to 1 (higher is better). Target: >
+                                            0.9</small>
+                                    </div>
+                                    <div class="mb-4">
+                                        <label class="fw-semibold text-muted small text-uppercase">Number of
+                                            Clusters</label>
+                                        <div class="display-6 fw-bold text-primary">{{evaluations.best_k|safe }}</div>
+                                        <small class="text-muted">Optimized for maximum silhouette score</small>
+                                    </div>
+                                    <hr class="my-4 opacity-20">
+                                    <p class="text-muted small mb-0">
+                                        {% if evaluations.silhouette|floatformat:2|add:"0" >= 0.9 %}
+                                        ✅ Excellent clustering quality - Silhouette Score > 0.9
+                                        {% elif evaluations.silhouette|floatformat:2|add:"0" >= 0.7 %}
+                                        ⚠️ Good clustering quality - Silhouette Score > 0.7
+                                        {% else %}
+                                        ℹ️ Fair clustering quality - Silhouette Score acceptable
+                                        {% endif %}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card shadow-sm border-0">
+                                <div class="card-header bg-info text-white py-3">
+                                    <h6 class="mb-0 fw-bold">Coefficient of Variation (CV)</h6>
+                                </div>
+                                <div class="card-body">
+                                    <div class="table-responsive">
+                                        {{ evaluations.overall_cv|safe }}
+                                    </div>
+                                    <hr class="my-3 opacity-20">
+                                    <small class="text-muted d-block">
+                                        <strong>CV Interpretation:</strong> Measures the relative variability of each
+                                        feature.
+                                        Lower CV indicates more consistent data within clusters.
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="mb-5 pt-3">
                     <div class="card shadow-sm border-0">
-                        <div
-                            class="card-header bg-white border-bottom py-3 d-flex justify-content-between align-items-center">
-                            <span class="fw-bold text-dark">Evaluation Metrics</span>
-                            <span class="badge bg-light text-primary border border-primary">
-                                Silhouette Score: {{evaluations.silhouette|safe }}
-                            </span>
+                        <div class="card-header bg-white border-bottom py-3">
+                            <span class="fw-bold text-dark">Cluster Summary Statistics</span>
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">
                                 {{ evaluations.summary|safe }}
                             </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="mb-5 pt-3">
+                    <div class="card shadow-sm border-0">
+                        <div class="card-header bg-white border-bottom py-3">
+                            <span class="fw-bold text-dark">Coefficient of Variation by Cluster</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                {{ evaluations.cv_by_cluster|safe }}
+                            </div>
+                            <small class="text-muted d-block mt-3">
+                                <strong>Note:</strong> CV (%) shows the ratio of standard deviation to mean for each
+                                feature within each cluster.
+                                Helps identify the consistency of each segment.
+                            </small>
                         </div>
                     </div>
                 </section>

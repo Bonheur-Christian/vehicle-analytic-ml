@@ -20,6 +20,7 @@
                 <div id="eda-nav" class="nav nav-pills flex-column">
                     <a class="nav-link mb-1 active" href="#dataset-preview">Dataset Preview</a>
                     <a class="nav-link mb-1" href="#statistical-summary">Statistical Summary</a>
+                    <a class="nav-link mb-1" href="#rwanda-map">Rwanda Distribution Map</a>
                     <a class="nav-link mb-1" href="{% url 'regression_analysis' %}">Regression Analysis</a>
                     <a class="nav-link mb-1" href="{% url 'classification_analysis' %}">Classification Analysis</a>
                     <a class="nav-link mb-1" href="{% url 'clustering_analysis' %}">Clustering Analysis</a>
@@ -50,6 +51,35 @@
                         </div>
                         <div class="card-body overflow-x-auto">
                             {{ data_exploration|safe }}
+                        </div>
+                    </div>
+                </section>
+
+                <section id="rwanda-map" class="mb-5" style="padding-top: 20px;">
+                    <div class="card shadow-sm border-0">
+                        <div class="card-header bg-success text-white py-3">
+                            <h6 class="mb-0 fw-bold">Vehicle Clients Distribution Across Rwanda (Map View)</h6>
+                        </div>
+                        <div class="card-body">
+                            {{ rwanda_map|safe }}
+                        </div>
+                    </div>
+
+                    <div class="card shadow-sm border-0 mt-4">
+                        <div class="card-header bg-info text-white py-3">
+                            <h6 class="mb-0 fw-bold">Vehicle Clients by District (Bar Chart)</h6>
+                        </div>
+                        <div class="card-body">
+                            {{ district_bar_chart|safe }}
+                        </div>
+                    </div>
+
+                    <div class="card shadow-sm border-0 mt-4">
+                        <div class="card-header bg-white border-bottom py-3">
+                            <h6 class="mb-0 fw-bold">District Summary Table</h6>
+                        </div>
+                        <div class="card-body overflow-x-auto">
+                            {{ district_summary|safe }}
                         </div>
                     </div>
                 </section>
